@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<div class = "paratext"> Some Sample Text</div>
+    <button onclick = "turnRed()">
+    <button onclick = "turnRed()">        
+
+
+<body>  
+    <script>
+
+        //1
+
+        let ProductName = "Iphone";
+        let Price = 800.00;
+        let category = "mobile phone"
+
+        console.log(`Product: ${ProductName} Price ${Price} category: ${category}`)
+
+        //2
+        let strVar = "JavaScript is super fun!";
+
+        console.log(`Lenght: ${strVar.length} first character: ${strVar[0]} last character: ${strVar[strVar.length-1]}`)
+
+        //3
+        let userEmail = "JoHn.Doe@Gmail.com"
+        console.log(`Output: ${userEmail.trim().toLowerCase()}`);
+
+        //4
+
+        function getFinalPrice(price,discount, tax)
+        {
+            let finalPrice = price - discount;
+            finalPrice = finalPrice + (finalPrice * tax);
+            return finalPrice;
+
+        }
+        let result = getFinalPrice(100,20, 0.2)
+        console.log(`Answer: ${result};`)
+
+        //5
+
+        let currentSpeed = 0
+        currentSpeed += 30;
+        currentSpeed += 3;
+        currentSpeed --;
+
+        console.log(`Final speed: ${currentSpeed}`);
+
+        //6
+
+        function calcGrade(score, attendance) {
+            if((score >= 80) (attendance >= 90)) {
+                console.log(`Success!`)}
+        }
+
+        //7
+        let varheading = document.createElement("h3");
+        varheading.innerText = "My Favourite Links";
+        document.body.apprendChild
+
+
+    </script>
+    
+</body>
+
+</html>
